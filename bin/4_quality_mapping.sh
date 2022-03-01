@@ -1,4 +1,11 @@
-###### Run qualimap
+#!/bin/bash
+
+# Script to evaluate the quality of the alignment
+## Prerequisite: qualimap v2.2.1
+### This script is in ./bin ; data are in ../data/cloros/map/ ; reference data is../data/cloros/ref/
+#### Output files are in ../data/cloros/map/
+
+# Run qualimap
 
 for R in `ls ../data/cloros/map | grep -oE "\w*_" | uniq`;
 

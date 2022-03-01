@@ -1,6 +1,8 @@
 #!/bin/bash
 
-
+#Script to process files before genome variants calling
+## Prerequisites: Picard tools, samtools 1.9
+### This script is ./bin ; data are ../data/cloros/map
 
 # Convert sam to bam file
 
